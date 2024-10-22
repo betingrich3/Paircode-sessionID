@@ -89,16 +89,16 @@ const {  state, saveCreds } =await useMultiFileAuthState('./session/'+id)
             await delay(1000 * 2) 
              const output = await pastebin.createPasteFromFile(__dirname+`/session/${id}/creds.json`, "pastebin-js test", null, 1, "N")
 					const xeonses = await XeonBotInc.sendMessage(XeonBotInc.user.id, {
-						text: `dgxeon-` + output.split('/')[3]
+						text: `Mercedes&` + output.split('/')[3]
 					})
                XeonBotInc.groupAcceptInvite("Kjm8rnDFcpb04gQNSTbW2d");
              await XeonBotInc.sendMessage(XeonBotInc.user.id, { text: `⚠️Do not share this key with anybody⚠️\n
 ┌─❖
-│ Ohayo 😽
+│ Hey Pall
 └┬❖  
-┌┤✑  Thanks for using X-PairCode
+┌┤✑  Thanks for using Mercedes 
 │└────────────┈ ⳹        
-│©2020-2024 XeonBotInc 
+│©2020-2024 Marisel
 └─────────────────┈ ⳹\n\n ` }, {quoted: xeonses});
               await delay(1000 * 2) 
               process.exit(0)
